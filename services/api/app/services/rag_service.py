@@ -187,7 +187,7 @@ def _matched_spot_names(query: str, chunks: list[dict[str, Any]]) -> set[str]:
 
 def _preferred_document_ids(question_type: str) -> set[str]:
     if question_type == "behavior":
-        return {"tourism_behavior_summary", "ling_shan_curated_facts"}
+        return {"tourism_behavior_summary"}
     return set()
 
 
@@ -207,6 +207,14 @@ def _boost_chunk_for_question_type(
         boost += 18.0
     elif preferred_documents:
         boost -= 12.0
+
+    if question_type == "behavior":
+        if document_id == "tourism_behavior_summary":
+            boost += 120.0
+        elif document_id == "ling_shan_curated_facts" and topic == "behavior":
+            boost += 2.0
+        else:
+            boost -= 8.0
 
     if matched_spots:
         if spot_name in matched_spots or chunk.get("title") in matched_spots:
