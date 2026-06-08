@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "qa-001",
+    "question": "灵山胜境在哪里？",
+    "expected_answer_hint": "灵山胜境坐落于江苏省无锡市太湖西北部的马山镇。",
+    "expected_chunk_ids": [
+      "fact-location-001",
+      "ls-guide-0001"
+    ],
+    "question_type": "location",
+    "key_facts": [
+      "江苏省无锡市",
+      "太湖西北部",
+      "马山镇"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-002",
+    "question": "灵山胜境为什么叫小灵山？",
+    "expected_answer_hint": "玄奘法师见马山山形酷似印度灵鹫山，赐名小灵山。",
+    "expected_chunk_ids": [
+      "fact-origin-001",
+      "ls-guide-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "玄奘",
+      "印度灵鹫山",
+      "小灵山"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-003",
+    "question": "祥符禅寺的历史可以怎么讲？",
+    "expected_answer_hint": "小灵山庵在北宋大中祥符年间获赐额祥符禅寺，历经兴废。",
+    "expected_chunk_ids": [
+      "fact-history-001",
+      "ls-guide-0003",
+      "ls-spots-0011"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "小灵山庵",
+      "北宋大中祥符",
+      "祥符禅寺"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-004",
+    "question": "灵山大佛什么时候落成开光？",
+    "expected_answer_hint": "灵山大佛于1997年11月15日落成开光。",
+    "expected_chunk_ids": [
+      "fact-buddha-001",
+      "ls-guide-0004"
+    ],
+    "question_type": "time",
+    "key_facts": [
+      "1997年11月15日",
+      "落成开光"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-005",
+    "question": "赵朴初和灵山胜境有什么关系？",
+    "expected_answer_hint": "赵朴初提出五方五佛理念，并题写灵山胜境大照壁。",
+    "expected_chunk_ids": [
+      "fact-zhaopuchu-001",
+      "ls-guide-0004",
+      "ls-guide-0005",
+      "ls-spots-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "赵朴初",
+      "五方五佛",
+      "题写",
+      "大照壁"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-006",
+    "question": "灵山梵宫有什么特色？",
+    "expected_answer_hint": "灵山梵宫融合佛教艺术、传统工艺和现代科技。",
+    "expected_chunk_ids": [
+      "fact-fangong-001",
+      "ls-guide-0006",
+      "ls-spots-0014"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "佛教艺术",
+      "传统工艺",
+      "现代科技"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-007",
+    "question": "灵山大照壁适合做什么？",
+    "expected_answer_hint": "大照壁是入口标志性门户，适合打卡合影和解读诗刻文化。",
+    "expected_chunk_ids": [
+      "fact-dazhaobi-001",
+      "ls-spots-0002"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "入口",
+      "打卡合影",
+      "诗刻文化"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-008",
+    "question": "五明桥代表什么含义？",
+    "expected_answer_hint": "五明桥象征佛教五种核心智慧。",
+    "expected_chunk_ids": [
+      "fact-wumingqiao-001",
+      "ls-spots-0003"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "五种核心智慧",
+      "声明",
+      "因明",
+      "内明"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-009",
+    "question": "九龙灌浴的核心看点是什么？",
+    "expected_answer_hint": "九龙灌浴以佛祖诞生典故为核心，是重要动态演艺景观。",
+    "expected_chunk_ids": [
+      "fact-jiulong-001",
+      "ls-guide-0007",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance",
+    "key_facts": [
+      "佛祖诞生",
+      "花开见佛",
+      "九龙沐浴",
+      "动态景观"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-010",
+    "question": "阿育王柱有什么文化意义？",
+    "expected_answer_hint": "阿育王柱体现佛教传播和护法精神。",
+    "expected_chunk_ids": [
+      "fact-ayuwang-001",
+      "ls-spots-0009"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "佛教传播",
+      "和平包容",
+      "护法精神"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-011",
+    "question": "祥符禅寺在游览中有什么价值？",
+    "expected_answer_hint": "祥符禅寺承载千年佛教传承，是灵山胜境核心文化节点。",
+    "expected_chunk_ids": [
+      "fact-xiangfu-001",
+      "ls-spots-0011",
+      "ls-guide-0003"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "千年佛教传承",
+      "核心文化节点",
+      "礼佛祈福"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-012",
+    "question": "灵山大佛游玩亮点有哪些？",
+    "expected_answer_hint": "可瞻仰大佛、登临观景，并感受五方五佛文化格局。",
+    "expected_chunk_ids": [
+      "fact-buddha-002",
+      "ls-spots-0012"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "瞻仰",
+      "观景",
+      "抱佛脚",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-013",
+    "question": "佛教文化博览馆适合哪些游客？",
+    "expected_answer_hint": "适合想深入了解佛教历史、艺术和文化脉络的游客。",
+    "expected_chunk_ids": [
+      "fact-museum-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "audience",
+    "key_facts": [
+      "佛教历史",
+      "艺术",
+      "文化脉络",
+      "亲子科普"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-014",
+    "question": "五印坛城体现什么文化？",
+    "expected_answer_hint": "五印坛城体现藏传佛教文化与坛城艺术。",
+    "expected_chunk_ids": [
+      "fact-wuyin-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "藏传佛教",
+      "坛城艺术",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-015",
+    "question": "曼飞龙塔有什么特色？",
+    "expected_answer_hint": "曼飞龙塔展现南传佛教建筑风格和多元佛教文化。",
+    "expected_chunk_ids": [
+      "fact-manfeilong-001",
+      "ls-spots-0017"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "南传佛教",
+      "白塔",
+      "多元佛教"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-016",
+    "question": "亲子游客可以关注哪些点？",
+    "expected_answer_hint": "可关注九龙灌浴、百子戏弥勒、佛教文化博览馆等互动和文化点位。",
+    "expected_chunk_ids": [
+      "fact-family-route-001",
+      "ls-guide-0015",
+      "ls-guide-0016"
+    ],
+    "question_type": "route_family",
+    "key_facts": [
+      "九龙灌浴",
+      "百子戏弥勒",
+      "佛教文化博览馆"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-017",
+    "question": "想拍照打卡怎么安排灵山胜境？",
+    "expected_answer_hint": "可优先大照壁、五明桥、九龙灌浴、灵山大佛和梵宫。",
+    "expected_chunk_ids": [
+      "fact-photo-route-001",
+      "ls-guide-0020"
+    ],
+    "question_type": "route_photo",
+    "key_facts": [
+      "大照壁",
+      "五明桥",
+      "九龙灌浴",
+      "灵山大佛",
+      "梵宫"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-018",
+    "question": "拈花湾禅意小镇有哪些点位？",
+    "expected_answer_hint": "结构化资料包含拈花广场、梵天花海、香月花街、拈花堂、五灯湖、鹿鸣谷。",
+    "expected_chunk_ids": [
+      "fact-niannhua-001",
+      "ls-spots-0020",
+      "ls-spots-0021",
+      "ls-spots-0022",
+      "ls-spots-0023",
+      "ls-spots-0024",
+      "ls-spots-0025"
+    ],
+    "question_type": "spot_list",
+    "key_facts": [
+      "拈花广场",
+      "梵天花海",
+      "香月花街",
+      "拈花堂",
+      "五灯湖",
+      "鹿鸣谷"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-019",
+    "question": "行为数据能否代表灵山胜境游客？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-020",
+    "question": "样例游客行为数据能提供什么参考？",
+    "expected_answer_hint": "可参考年龄、性别、停留时长、消费、团队规模和满意度等聚合指标。",
+    "expected_chunk_ids": [
+      "fact-behavior-metrics-001",
+      "tourism-behavior-0002",
+      "tourism-behavior-0003",
+      "tourism-behavior-0004"
+    ],
+    "question_type": "behavior_metrics",
+    "key_facts": [
+      "年龄",
+      "性别",
+      "停留时长",
+      "消费",
+      "团队规模",
+      "满意度"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-021",
+    "question": "九龙灌浴几点演？",
+    "expected_answer_hint": "九龙灌浴平日10:00、11:30、13:30、15:00演出，每场约15分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:00",
+      "11:30",
+      "13:30",
+      "15:00",
+      "15分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-022",
+    "question": "灵山吉祥颂演出时间是什么？",
+    "expected_answer_hint": "《灵山吉祥颂》10:35、11:30、14:00、16:00演出，每场约20分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0015"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:35",
+      "11:30",
+      "14:00",
+      "16:00",
+      "20分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-023",
+    "question": "佛教文化博览馆开放到几点？",
+    "expected_answer_hint": "佛教文化博览馆随灵山大佛开放时间同步运营，8:00-17:00，冬季提前至16:30。",
+    "expected_chunk_ids": [
+      "fact-open-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "opening_hours",
+    "key_facts": [
+      "8:00-17:00",
+      "冬季",
+      "16:30"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-024",
+    "question": "五印坛城开放时间？",
+    "expected_answer_hint": "五印坛城9:00-17:00开放，冬季闭馆时间提前至16:30。",
+    "expected_chunk_ids": [
+      "fact-open-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "opening_hours",
+    "key_facts": [
+      "9:00-17:00",
+      "冬季",
+      "16:30"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-025",
+    "question": "灵山胜境门票多少钱？",
+    "expected_answer_hint": "现有知识库没有完整门票价格表；只记录部分免费项目、导游300元起和部分体验费用自理。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "price_limit",
+    "key_facts": [
+      "未提供完整门票价格表",
+      "免费项目",
+      "300元起",
+      "费用自理"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-026",
+    "question": "灵山胜境具体在无锡哪里？",
+    "expected_answer_hint": "灵山胜境坐落于江苏省无锡市太湖西北部的马山镇。",
+    "expected_chunk_ids": [
+      "fact-location-001",
+      "ls-guide-0001"
+    ],
+    "question_type": "location",
+    "key_facts": [
+      "江苏省无锡市",
+      "太湖西北部",
+      "马山镇"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-027",
+    "question": "小灵山这个名字是谁起的？",
+    "expected_answer_hint": "玄奘法师见马山山形酷似印度灵鹫山，赐名小灵山。",
+    "expected_chunk_ids": [
+      "fact-origin-001",
+      "ls-guide-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "玄奘",
+      "印度灵鹫山",
+      "小灵山"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-028",
+    "question": "祥符禅寺为什么说有千年历史？",
+    "expected_answer_hint": "小灵山庵在北宋大中祥符年间获赐额祥符禅寺，历经兴废。",
+    "expected_chunk_ids": [
+      "fact-history-001",
+      "ls-guide-0003",
+      "ls-spots-0011"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "小灵山庵",
+      "北宋大中祥符",
+      "祥符禅寺"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-029",
+    "question": "灵山大佛是哪一天开光的？",
+    "expected_answer_hint": "灵山大佛于1997年11月15日落成开光。",
+    "expected_chunk_ids": [
+      "fact-buddha-001",
+      "ls-guide-0004"
+    ],
+    "question_type": "time",
+    "key_facts": [
+      "1997年11月15日",
+      "落成开光"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-030",
+    "question": "赵朴初为灵山做过什么？",
+    "expected_answer_hint": "赵朴初提出五方五佛理念，并题写灵山胜境大照壁。",
+    "expected_chunk_ids": [
+      "fact-zhaopuchu-001",
+      "ls-guide-0004",
+      "ls-guide-0005",
+      "ls-spots-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "赵朴初",
+      "五方五佛",
+      "题写",
+      "大照壁"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-031",
+    "question": "梵宫为什么值得看？",
+    "expected_answer_hint": "灵山梵宫融合佛教艺术、传统工艺和现代科技。",
+    "expected_chunk_ids": [
+      "fact-fangong-001",
+      "ls-guide-0006",
+      "ls-spots-0014"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "佛教艺术",
+      "传统工艺",
+      "现代科技"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-032",
+    "question": "大照壁是不是适合拍照？",
+    "expected_answer_hint": "大照壁是入口标志性门户，适合打卡合影和解读诗刻文化。",
+    "expected_chunk_ids": [
+      "fact-dazhaobi-001",
+      "ls-spots-0002"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "入口",
+      "打卡合影",
+      "诗刻文化"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-033",
+    "question": "五明桥的五明指什么？",
+    "expected_answer_hint": "五明桥象征佛教五种核心智慧。",
+    "expected_chunk_ids": [
+      "fact-wumingqiao-001",
+      "ls-spots-0003"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "五种核心智慧",
+      "声明",
+      "因明",
+      "内明"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-034",
+    "question": "九龙灌浴主要表演什么故事？",
+    "expected_answer_hint": "九龙灌浴以佛祖诞生典故为核心，是重要动态演艺景观。",
+    "expected_chunk_ids": [
+      "fact-jiulong-001",
+      "ls-guide-0007",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance",
+    "key_facts": [
+      "佛祖诞生",
+      "花开见佛",
+      "九龙沐浴",
+      "动态景观"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-035",
+    "question": "阿育王柱和佛教传播有什么关系？",
+    "expected_answer_hint": "阿育王柱体现佛教传播和护法精神。",
+    "expected_chunk_ids": [
+      "fact-ayuwang-001",
+      "ls-spots-0009"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "佛教传播",
+      "和平包容",
+      "护法精神"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-036",
+    "question": "祥符禅寺适合祈福吗？",
+    "expected_answer_hint": "祥符禅寺承载千年佛教传承，是灵山胜境核心文化节点。",
+    "expected_chunk_ids": [
+      "fact-xiangfu-001",
+      "ls-spots-0011",
+      "ls-guide-0003"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "千年佛教传承",
+      "核心文化节点",
+      "礼佛祈福"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-037",
+    "question": "灵山大佛有哪些体验点？",
+    "expected_answer_hint": "可瞻仰大佛、登临观景，并感受五方五佛文化格局。",
+    "expected_chunk_ids": [
+      "fact-buddha-002",
+      "ls-spots-0012"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "瞻仰",
+      "观景",
+      "抱佛脚",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-038",
+    "question": "带孩子去佛教文化博览馆合适吗？",
+    "expected_answer_hint": "适合想深入了解佛教历史、艺术和文化脉络的游客。",
+    "expected_chunk_ids": [
+      "fact-museum-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "audience",
+    "key_facts": [
+      "佛教历史",
+      "艺术",
+      "文化脉络",
+      "亲子科普"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-039",
+    "question": "五印坛城是不是藏传佛教建筑？",
+    "expected_answer_hint": "五印坛城体现藏传佛教文化与坛城艺术。",
+    "expected_chunk_ids": [
+      "fact-wuyin-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "藏传佛教",
+      "坛城艺术",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-040",
+    "question": "曼飞龙塔属于哪种佛教风格？",
+    "expected_answer_hint": "曼飞龙塔展现南传佛教建筑风格和多元佛教文化。",
+    "expected_chunk_ids": [
+      "fact-manfeilong-001",
+      "ls-spots-0017"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "南传佛教",
+      "白塔",
+      "多元佛教"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-041",
+    "question": "亲子游灵山先看哪些景点？",
+    "expected_answer_hint": "可关注九龙灌浴、百子戏弥勒、佛教文化博览馆等互动和文化点位。",
+    "expected_chunk_ids": [
+      "fact-family-route-001",
+      "ls-guide-0015",
+      "ls-guide-0016"
+    ],
+    "question_type": "route_family",
+    "key_facts": [
+      "九龙灌浴",
+      "百子戏弥勒",
+      "佛教文化博览馆"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-042",
+    "question": "灵山拍照路线怎么排？",
+    "expected_answer_hint": "可优先大照壁、五明桥、九龙灌浴、灵山大佛和梵宫。",
+    "expected_chunk_ids": [
+      "fact-photo-route-001",
+      "ls-guide-0020"
+    ],
+    "question_type": "route_photo",
+    "key_facts": [
+      "大照壁",
+      "五明桥",
+      "九龙灌浴",
+      "灵山大佛",
+      "梵宫"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-043",
+    "question": "拈花湾有哪些主要景点？",
+    "expected_answer_hint": "结构化资料包含拈花广场、梵天花海、香月花街、拈花堂、五灯湖、鹿鸣谷。",
+    "expected_chunk_ids": [
+      "fact-niannhua-001",
+      "ls-spots-0020",
+      "ls-spots-0021",
+      "ls-spots-0022",
+      "ls-spots-0023",
+      "ls-spots-0024",
+      "ls-spots-0025"
+    ],
+    "question_type": "spot_list",
+    "key_facts": [
+      "拈花广场",
+      "梵天花海",
+      "香月花街",
+      "拈花堂",
+      "五灯湖",
+      "鹿鸣谷"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-044",
+    "question": "游客行为数据可以直接代表灵山吗？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-045",
+    "question": "游客行为摘要有哪些指标？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-046",
+    "question": "九龙灌浴平日表演时间？",
+    "expected_answer_hint": "九龙灌浴平日10:00、11:30、13:30、15:00演出，每场约15分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:00",
+      "11:30",
+      "13:30",
+      "15:00",
+      "15分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-047",
+    "question": "吉祥颂每天哪几个时间段？",
+    "expected_answer_hint": "《灵山吉祥颂》10:35、11:30、14:00、16:00演出，每场约20分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0015"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:35",
+      "11:30",
+      "14:00",
+      "16:00",
+      "20分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-048",
+    "question": "博览馆冬季几点闭馆？",
+    "expected_answer_hint": "佛教文化博览馆随灵山大佛开放时间同步运营，8:00-17:00，冬季提前至16:30。",
+    "expected_chunk_ids": [
+      "fact-open-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "opening_hours",
+    "key_facts": [
+      "8:00-17:00",
+      "冬季",
+      "16:30"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-049",
+    "question": "五印坛城冬天开放到几点？",
+    "expected_answer_hint": "五印坛城9:00-17:00开放，冬季闭馆时间提前至16:30。",
+    "expected_chunk_ids": [
+      "fact-open-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "opening_hours",
+    "key_facts": [
+      "9:00-17:00",
+      "冬季",
+      "16:30"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-050",
+    "question": "知识库里有完整票价吗？",
+    "expected_answer_hint": "现有知识库没有完整门票价格表；只记录部分免费项目、导游300元起和部分体验费用自理。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "price_limit",
+    "key_facts": [
+      "未提供完整门票价格表"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-051",
+    "question": "灵山胜景在哪里？",
+    "expected_answer_hint": "灵山胜境坐落于江苏省无锡市太湖西北部的马山镇。",
+    "expected_chunk_ids": [
+      "fact-location-001",
+      "ls-guide-0001"
+    ],
+    "question_type": "location",
+    "key_facts": [
+      "江苏省无锡市",
+      "太湖西北部",
+      "马山镇"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-052",
+    "question": "玄奘为什么叫这里小灵山？",
+    "expected_answer_hint": "玄奘法师见马山山形酷似印度灵鹫山，赐名小灵山。",
+    "expected_chunk_ids": [
+      "fact-origin-001",
+      "ls-guide-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "玄奘",
+      "印度灵鹫山",
+      "小灵山"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-053",
+    "question": "祥符禅寺北宋时发生了什么？",
+    "expected_answer_hint": "小灵山庵在北宋大中祥符年间获赐额祥符禅寺，历经兴废。",
+    "expected_chunk_ids": [
+      "fact-history-001",
+      "ls-guide-0003",
+      "ls-spots-0011"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "小灵山庵",
+      "北宋大中祥符",
+      "祥符禅寺"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-054",
+    "question": "灵山大佛1997年发生什么？",
+    "expected_answer_hint": "灵山大佛于1997年11月15日落成开光。",
+    "expected_chunk_ids": [
+      "fact-buddha-001",
+      "ls-guide-0004"
+    ],
+    "question_type": "time",
+    "key_facts": [
+      "1997年11月15日",
+      "落成开光"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-055",
+    "question": "赵朴初题写了哪里？",
+    "expected_answer_hint": "赵朴初提出五方五佛理念，并题写灵山胜境大照壁。",
+    "expected_chunk_ids": [
+      "fact-zhaopuchu-001",
+      "ls-guide-0004",
+      "ls-guide-0005",
+      "ls-spots-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "赵朴初",
+      "五方五佛",
+      "题写",
+      "大照壁"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-056",
+    "question": "灵山梵官有什么特色？",
+    "expected_answer_hint": "灵山梵宫融合佛教艺术、传统工艺和现代科技。",
+    "expected_chunk_ids": [
+      "fact-fangong-001",
+      "ls-guide-0006",
+      "ls-spots-0014"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "佛教艺术",
+      "传统工艺",
+      "现代科技"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-057",
+    "question": "灵山大昭壁能不能打卡？",
+    "expected_answer_hint": "大照壁是入口标志性门户，适合打卡合影和解读诗刻文化。",
+    "expected_chunk_ids": [
+      "fact-dazhaobi-001",
+      "ls-spots-0002"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "入口",
+      "打卡合影",
+      "诗刻文化"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-058",
+    "question": "五名桥有什么寓意？",
+    "expected_answer_hint": "五明桥象征佛教五种核心智慧。",
+    "expected_chunk_ids": [
+      "fact-wumingqiao-001",
+      "ls-spots-0003"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "五种核心智慧",
+      "声明",
+      "因明",
+      "内明"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-059",
+    "question": "九龙灌浴看点是喷泉吗？",
+    "expected_answer_hint": "九龙灌浴以佛祖诞生典故为核心，是重要动态演艺景观。",
+    "expected_chunk_ids": [
+      "fact-jiulong-001",
+      "ls-guide-0007",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance",
+    "key_facts": [
+      "佛祖诞生",
+      "花开见佛",
+      "九龙沐浴",
+      "动态景观"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-060",
+    "question": "阿育王住象征什么？",
+    "expected_answer_hint": "阿育王柱体现佛教传播和护法精神。",
+    "expected_chunk_ids": [
+      "fact-ayuwang-001",
+      "ls-spots-0009"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "佛教传播",
+      "和平包容",
+      "护法精神"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-061",
+    "question": "祥福禅寺值不值得看？",
+    "expected_answer_hint": "祥符禅寺承载千年佛教传承，是灵山胜境核心文化节点。",
+    "expected_chunk_ids": [
+      "fact-xiangfu-001",
+      "ls-spots-0011",
+      "ls-guide-0003"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "千年佛教传承",
+      "核心文化节点",
+      "礼佛祈福"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-062",
+    "question": "大佛那里怎么玩？",
+    "expected_answer_hint": "可瞻仰大佛、登临观景，并感受五方五佛文化格局。",
+    "expected_chunk_ids": [
+      "fact-buddha-002",
+      "ls-spots-0012"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "瞻仰",
+      "观景",
+      "抱佛脚",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-063",
+    "question": "博览馆适合研学游客吗？",
+    "expected_answer_hint": "适合想深入了解佛教历史、艺术和文化脉络的游客。",
+    "expected_chunk_ids": [
+      "fact-museum-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "audience",
+    "key_facts": [
+      "佛教历史",
+      "艺术",
+      "文化脉络",
+      "亲子科普"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-064",
+    "question": "五印坛城体现什么佛教语系？",
+    "expected_answer_hint": "五印坛城体现藏传佛教文化与坛城艺术。",
+    "expected_chunk_ids": [
+      "fact-wuyin-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "藏传佛教",
+      "坛城艺术",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-065",
+    "question": "曼飞龙塔拍照有什么特色？",
+    "expected_answer_hint": "曼飞龙塔展现南传佛教建筑风格和多元佛教文化。",
+    "expected_chunk_ids": [
+      "fact-manfeilong-001",
+      "ls-spots-0017"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "南传佛教",
+      "白塔",
+      "多元佛教"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-066",
+    "question": "带娃去灵山看什么？",
+    "expected_answer_hint": "可关注九龙灌浴、百子戏弥勒、佛教文化博览馆等互动和文化点位。",
+    "expected_chunk_ids": [
+      "fact-family-route-001",
+      "ls-guide-0015",
+      "ls-guide-0016"
+    ],
+    "question_type": "route_family",
+    "key_facts": [
+      "九龙灌浴",
+      "百子戏弥勒",
+      "佛教文化博览馆"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-067",
+    "question": "打卡照优先去哪几个点？",
+    "expected_answer_hint": "可优先大照壁、五明桥、九龙灌浴、灵山大佛和梵宫。",
+    "expected_chunk_ids": [
+      "fact-photo-route-001",
+      "ls-guide-0020"
+    ],
+    "question_type": "route_photo",
+    "key_facts": [
+      "大照壁",
+      "五明桥",
+      "九龙灌浴",
+      "灵山大佛",
+      "梵宫"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-068",
+    "question": "拈花湾六个点位有哪些？",
+    "expected_answer_hint": "结构化资料包含拈花广场、梵天花海、香月花街、拈花堂、五灯湖、鹿鸣谷。",
+    "expected_chunk_ids": [
+      "fact-niannhua-001",
+      "ls-spots-0020",
+      "ls-spots-0021",
+      "ls-spots-0022",
+      "ls-spots-0023",
+      "ls-spots-0024",
+      "ls-spots-0025"
+    ],
+    "question_type": "spot_list",
+    "key_facts": [
+      "拈花广场",
+      "梵天花海",
+      "香月花街",
+      "拈花堂",
+      "五灯湖",
+      "鹿鸣谷"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-069",
+    "question": "行为表里正文弱相关能当主数据吗？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-070",
+    "question": "样例行为数据有满意度吗？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-071",
+    "question": "九龙灌浴下午几点有？",
+    "expected_answer_hint": "九龙灌浴平日10:00、11:30、13:30、15:00演出，每场约15分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:00",
+      "11:30",
+      "13:30",
+      "15:00",
+      "15分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-072",
+    "question": "灵山吉祥颂一场多久？",
+    "expected_answer_hint": "《灵山吉祥颂》10:35、11:30、14:00、16:00演出，每场约20分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0015"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:35",
+      "11:30",
+      "14:00",
+      "16:00",
+      "20分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-073",
+    "question": "佛教文化博览馆要另外收费吗？",
+    "expected_answer_hint": "现有知识库没有完整门票价格表；只记录部分免费项目、导游300元起和部分体验费用自理。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "price_limit",
+    "key_facts": [
+      "未提供完整门票价格表",
+      "免费项目",
+      "300元起",
+      "费用自理"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-074",
+    "question": "五明桥要门票吗？",
+    "expected_answer_hint": "五明桥象征佛教五种核心智慧。",
+    "expected_chunk_ids": [
+      "fact-wumingqiao-001",
+      "ls-spots-0003"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "五种核心智慧",
+      "声明",
+      "因明",
+      "内明"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-075",
+    "question": "如果问成人票价格能直接回答吗？",
+    "expected_answer_hint": "现有知识库没有完整门票价格表；只记录部分免费项目、导游300元起和部分体验费用自理。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "price_limit",
+    "key_facts": [
+      "未提供完整门票价格表"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-076",
+    "question": "灵山胜境不在无锡吗？",
+    "expected_answer_hint": "灵山胜境坐落于江苏省无锡市太湖西北部的马山镇。",
+    "expected_chunk_ids": [
+      "fact-location-001",
+      "ls-guide-0001"
+    ],
+    "question_type": "location",
+    "key_facts": [
+      "江苏省无锡市",
+      "太湖西北部",
+      "马山镇"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-077",
+    "question": "不是玄奘给小灵山命名的吗？",
+    "expected_answer_hint": "玄奘法师见马山山形酷似印度灵鹫山，赐名小灵山。",
+    "expected_chunk_ids": [
+      "fact-origin-001",
+      "ls-guide-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "玄奘",
+      "印度灵鹫山",
+      "小灵山"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-078",
+    "question": "祥符禅寺难道不是北宋赐额？",
+    "expected_answer_hint": "小灵山庵在北宋大中祥符年间获赐额祥符禅寺，历经兴废。",
+    "expected_chunk_ids": [
+      "fact-history-001",
+      "ls-guide-0003",
+      "ls-spots-0011"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "小灵山庵",
+      "北宋大中祥符",
+      "祥符禅寺"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-079",
+    "question": "灵山大佛不是1997年开光的吗？",
+    "expected_answer_hint": "灵山大佛于1997年11月15日落成开光。",
+    "expected_chunk_ids": [
+      "fact-buddha-001",
+      "ls-guide-0004"
+    ],
+    "question_type": "time",
+    "key_facts": [
+      "1997年11月15日",
+      "落成开光"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-080",
+    "question": "赵朴初没有参与灵山大佛文化格局吗？",
+    "expected_answer_hint": "赵朴初提出五方五佛理念，并题写灵山胜境大照壁。",
+    "expected_chunk_ids": [
+      "fact-zhaopuchu-001",
+      "ls-guide-0004",
+      "ls-guide-0005",
+      "ls-spots-0002"
+    ],
+    "question_type": "history",
+    "key_facts": [
+      "赵朴初",
+      "五方五佛",
+      "题写",
+      "大照壁"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-081",
+    "question": "灵山梵宫是不是只是一座普通建筑？",
+    "expected_answer_hint": "灵山梵宫融合佛教艺术、传统工艺和现代科技。",
+    "expected_chunk_ids": [
+      "fact-fangong-001",
+      "ls-guide-0006",
+      "ls-spots-0014"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "佛教艺术",
+      "传统工艺",
+      "现代科技"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-082",
+    "question": "大照壁除了路过还能看什么？",
+    "expected_answer_hint": "大照壁是入口标志性门户，适合打卡合影和解读诗刻文化。",
+    "expected_chunk_ids": [
+      "fact-dazhaobi-001",
+      "ls-spots-0002"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "入口",
+      "打卡合影",
+      "诗刻文化"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-083",
+    "question": "五明桥不是五座桥而已吗？",
+    "expected_answer_hint": "五明桥象征佛教五种核心智慧。",
+    "expected_chunk_ids": [
+      "fact-wumingqiao-001",
+      "ls-spots-0003"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "五种核心智慧",
+      "声明",
+      "因明",
+      "内明"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-084",
+    "question": "九龙灌浴是不是只适合拍照？",
+    "expected_answer_hint": "九龙灌浴以佛祖诞生典故为核心，是重要动态演艺景观。",
+    "expected_chunk_ids": [
+      "fact-jiulong-001",
+      "ls-guide-0007",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance",
+    "key_facts": [
+      "佛祖诞生",
+      "花开见佛",
+      "九龙沐浴",
+      "动态景观"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-085",
+    "question": "阿育王柱不就是柱子吗，有文化含义吗？",
+    "expected_answer_hint": "阿育王柱体现佛教传播和护法精神。",
+    "expected_chunk_ids": [
+      "fact-ayuwang-001",
+      "ls-spots-0009"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "佛教传播",
+      "和平包容",
+      "护法精神"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-086",
+    "question": "祥符禅寺只是普通寺庙吗？",
+    "expected_answer_hint": "祥符禅寺承载千年佛教传承，是灵山胜境核心文化节点。",
+    "expected_chunk_ids": [
+      "fact-xiangfu-001",
+      "ls-spots-0011",
+      "ls-guide-0003"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "千年佛教传承",
+      "核心文化节点",
+      "礼佛祈福"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-087",
+    "question": "灵山大佛除了看佛像还有什么？",
+    "expected_answer_hint": "可瞻仰大佛、登临观景，并感受五方五佛文化格局。",
+    "expected_chunk_ids": [
+      "fact-buddha-002",
+      "ls-spots-0012"
+    ],
+    "question_type": "spot_feature",
+    "key_facts": [
+      "瞻仰",
+      "观景",
+      "抱佛脚",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-088",
+    "question": "不了解佛教的人适合去博览馆吗？",
+    "expected_answer_hint": "适合想深入了解佛教历史、艺术和文化脉络的游客。",
+    "expected_chunk_ids": [
+      "fact-museum-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "audience",
+    "key_facts": [
+      "佛教历史",
+      "艺术",
+      "文化脉络",
+      "亲子科普"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-089",
+    "question": "五印坛城和藏传佛教有关吗？",
+    "expected_answer_hint": "五印坛城体现藏传佛教文化与坛城艺术。",
+    "expected_chunk_ids": [
+      "fact-wuyin-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "藏传佛教",
+      "坛城艺术",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-090",
+    "question": "曼飞龙塔是不是南传风格？",
+    "expected_answer_hint": "曼飞龙塔展现南传佛教建筑风格和多元佛教文化。",
+    "expected_chunk_ids": [
+      "fact-manfeilong-001",
+      "ls-spots-0017"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "南传佛教",
+      "白塔",
+      "多元佛教"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-091",
+    "question": "亲子游不看演出可以吗，推荐哪些？",
+    "expected_answer_hint": "可关注九龙灌浴、百子戏弥勒、佛教文化博览馆等互动和文化点位。",
+    "expected_chunk_ids": [
+      "fact-family-route-001",
+      "ls-guide-0015",
+      "ls-guide-0016"
+    ],
+    "question_type": "route_family",
+    "key_facts": [
+      "九龙灌浴",
+      "百子戏弥勒",
+      "佛教文化博览馆"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-092",
+    "question": "拍照不去梵宫可以吗，路线怎么补？",
+    "expected_answer_hint": "可优先大照壁、五明桥、九龙灌浴、灵山大佛和梵宫。",
+    "expected_chunk_ids": [
+      "fact-photo-route-001",
+      "ls-guide-0020"
+    ],
+    "question_type": "route_photo",
+    "key_facts": [
+      "大照壁",
+      "五明桥",
+      "九龙灌浴",
+      "灵山大佛",
+      "梵宫"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-093",
+    "question": "拈花湾是不是只有拈花广场？",
+    "expected_answer_hint": "结构化资料包含拈花广场、梵天花海、香月花街、拈花堂、五灯湖、鹿鸣谷。",
+    "expected_chunk_ids": [
+      "fact-niannhua-001",
+      "ls-spots-0020",
+      "ls-spots-0021",
+      "ls-spots-0022",
+      "ls-spots-0023",
+      "ls-spots-0024",
+      "ls-spots-0025"
+    ],
+    "question_type": "spot_list",
+    "key_facts": [
+      "拈花广场",
+      "梵天花海",
+      "香月花街",
+      "拈花堂",
+      "五灯湖",
+      "鹿鸣谷"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-094",
+    "question": "行为数据是不是全部都是灵山游客？",
+    "expected_answer_hint": "需谨慎；以 attraction_name 明确命中的记录优先，正文弱相关只能作补充参考。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001",
+      "tourism-behavior-0001"
+    ],
+    "question_type": "behavior_scope",
+    "key_facts": [
+      "attraction_name",
+      "明确命中",
+      "正文弱相关",
+      "补充参考"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-095",
+    "question": "样例数据能看出平均消费吗？",
+    "expected_answer_hint": "可参考年龄、性别、停留时长、消费、团队规模和满意度等聚合指标。",
+    "expected_chunk_ids": [
+      "fact-behavior-metrics-001",
+      "tourism-behavior-0002",
+      "tourism-behavior-0003",
+      "tourism-behavior-0004"
+    ],
+    "question_type": "behavior_metrics",
+    "key_facts": [
+      "年龄",
+      "性别",
+      "停留时长",
+      "消费",
+      "团队规模",
+      "满意度"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-096",
+    "question": "九龍灌浴什么时候表演？",
+    "expected_answer_hint": "九龙灌浴平日10:00、11:30、13:30、15:00演出，每场约15分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0007"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:00",
+      "11:30",
+      "13:30",
+      "15:00",
+      "15分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-097",
+    "question": "灵山吉详颂几点开始？",
+    "expected_answer_hint": "《灵山吉祥颂》10:35、11:30、14:00、16:00演出，每场约20分钟。",
+    "expected_chunk_ids": [
+      "fact-performance-001",
+      "ls-spots-0015"
+    ],
+    "question_type": "performance_time",
+    "key_facts": [
+      "10:35",
+      "11:30",
+      "14:00",
+      "16:00",
+      "20分钟"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-098",
+    "question": "博览馆开放时段是全天吗？",
+    "expected_answer_hint": "佛教文化博览馆随灵山大佛开放时间同步运营，8:00-17:00，冬季提前至16:30。",
+    "expected_chunk_ids": [
+      "fact-open-001",
+      "ls-spots-0013"
+    ],
+    "question_type": "opening_hours",
+    "key_facts": [
+      "8:00-17:00",
+      "冬季",
+      "16:30"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-099",
+    "question": "五印坛城是不是晚上也开放？",
+    "expected_answer_hint": "五印坛城体现藏传佛教文化与坛城艺术。",
+    "expected_chunk_ids": [
+      "fact-wuyin-001",
+      "ls-spots-0016"
+    ],
+    "question_type": "culture",
+    "key_facts": [
+      "藏传佛教",
+      "坛城艺术",
+      "五方五佛"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-100",
+    "question": "门票价目表在知识库里完整吗？",
+    "expected_answer_hint": "现有知识库没有完整门票价格表；只记录部分免费项目、导游300元起和部分体验费用自理。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "price_limit",
+    "key_facts": [
+      "未提供完整门票价格表"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-001",
+    "question": "灵山胜境今天实时客流是多少？",
+    "expected_answer_hint": "现有知识库没有实时客流数据，不能编造。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时客流数据"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-002",
+    "question": "明天九龙灌浴会不会临时取消？",
+    "expected_answer_hint": "现有知识库只有常规演出时间，临时调整需以景区广播或官方小程序为准。",
+    "expected_chunk_ids": [
+      "fact-performance-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "临时调整",
+      "官方小程序"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-003",
+    "question": "灵山胜境2026年成人票最新价格是多少？",
+    "expected_answer_hint": "现有知识库未提供完整最新票价表，不能确认成人票最新价格。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "未提供完整最新票价表"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-004",
+    "question": "灵山附近哪家酒店最便宜？",
+    "expected_answer_hint": "现有知识库不包含周边酒店价格数据。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "不包含酒店价格"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-005",
+    "question": "帮我买两张明天的门票。",
+    "expected_answer_hint": "系统当前知识库不能代购门票，也没有实时售票接口。",
+    "expected_chunk_ids": [
+      "fact-price-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "不能代购门票"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-006",
+    "question": "灵山大佛现在排队多久？",
+    "expected_answer_hint": "现有知识库没有实时排队时长。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时排队时长"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-007",
+    "question": "今天无锡天气适合去灵山吗？",
+    "expected_answer_hint": "现有知识库不包含实时天气。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "不包含实时天气"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-008",
+    "question": "景区客服电话是多少？",
+    "expected_answer_hint": "现有知识库没有客服电话。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有客服电话"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-009",
+    "question": "灵山胜境有没有最新优惠券？",
+    "expected_answer_hint": "现有知识库没有实时优惠券信息。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时优惠券"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-010",
+    "question": "给我预测明年五一游客量。",
+    "expected_answer_hint": "现有知识库不足以预测未来五一游客量。",
+    "expected_chunk_ids": [
+      "fact-behavior-scope-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "不足以预测"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-011",
+    "question": "灵山胜境停车场现在还有空位吗？",
+    "expected_answer_hint": "现有知识库没有实时停车位数据。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时停车位数据"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-012",
+    "question": "梵宫今天哪位演员上场？",
+    "expected_answer_hint": "现有知识库没有演职人员实时排班。",
+    "expected_chunk_ids": [
+      "fact-performance-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有演职人员实时排班"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-013",
+    "question": "帮我预约明天藏香制作。",
+    "expected_answer_hint": "现有知识库只说明藏香制作需预约，不能代办预约。",
+    "expected_chunk_ids": [
+      "fact-open-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "不能代办预约"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-014",
+    "question": "灵山胜境附近打车多少钱？",
+    "expected_answer_hint": "现有知识库没有实时打车价格。",
+    "expected_chunk_ids": [],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时打车价格"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  },
+  {
+    "id": "qa-oos-015",
+    "question": "拈花湾今晚灯光秀准确时间？",
+    "expected_answer_hint": "现有知识库没有拈花湾实时演艺排期。",
+    "expected_chunk_ids": [
+      "fact-niannhua-001"
+    ],
+    "question_type": "out_of_scope",
+    "key_facts": [
+      "没有实时演艺排期"
+    ],
+    "source": "data/knowledge_base/chunks/chunks.jsonl"
+  }
+]

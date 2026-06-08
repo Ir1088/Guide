@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-07T10:15:41.908700+00:00",
+  "source_dir": "data/sample_scenic",
+  "documents_dir": "data/knowledge_base/documents",
+  "chunks_file": "data/knowledge_base/chunks/chunks.jsonl",
+  "qa_test_set": "data/knowledge_base/qa_test_set.json",
+  "source_files": [
+    "data/sample_scenic/灵山胜境：历史、文化、景点特色与个性化游览指南.docx",
+    "data/sample_scenic/灵山胜境 景点结构化数据集.docx",
+    "data/sample_scenic/景点景区旅游数据行为分析数据.xlsx"
+  ],
+  "document_count": 3,
+  "chunk_count": 73,
+  "qa_count": 115,
+  "chunks_by_document": {
+    "ling_shan_guide": 20,
+    "ling_shan_structured_spots": 25,
+    "tourism_behavior_summary": 4,
+    "ling_shan_curated_facts": 24
+  },
+  "notes": [
+    "该工作簿包含 attraction_name 明确命中灵山或拈花的记录，可作运营行为补充来源。",
+    "RAG uses chunks.jsonl as a local lexical knowledge source before model integration.",
+    "Curated fact chunks split opening hours, performance times, price scope, routes, audiences, and behavior-data limits for RAG evaluation."
+  ]
+}
